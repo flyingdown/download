@@ -42,7 +42,7 @@ class download ( object ) :
 			else :
 				ranges.append ( ( i*offset, (i+1)*offset-1 ) )
 		
-		print ranges, ' ', self.total
+		#print ranges, ' ', self.total
 		return ranges
 	
 	def down ( self, no, start, end ) :
